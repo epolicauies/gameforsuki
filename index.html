@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=600, initial-scale=1.0">
+  <title>Happy Birthday Game!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="startScreen">
+    <h1>Happy Birthday Princess!</h1>
+    <button id="playBtn">Play</button>
+  </div>
+  <div id="gameUI" style="display:none;">
+    <div id="message">Catch the hearts! ❤️🐰🌼🍓</div>
+    <canvas id="gameCanvas" width="600" height="800"></canvas>
+  </div>
+  <div id="failScreen" style="display:none;">
+    <div id="failMessage">Oops! You caught the wrong thing!</div>
+    <button id="retryBtn">Try again princess</button>
+  </div>
+  <div id="endScreen" style="display:none;">
+    <div id="winMessage">You did it princess! 🎉</div>
+  </div>
+  <audio id="bgm" src="bgm.mp3" loop preload="auto"></audio>
+  <audio id="popSound" src="pop.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
