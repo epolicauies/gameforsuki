@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(to bottom, #ffecf2 0%, #ffe0e8 100%);
+  text-align: center;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#startScreen, #gameUI, #failScreen, #endScreen {
+  margin-top: 40px;
+}
+h1 {
+  color: #e75480;
+  margin-bottom: 30px;
+}
+button {
+  font-size: 1.5em;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 12px;
+  background: #e75480;
+  color: #fff;
+  box-shadow: 0 2px 12px #e7548099;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #c6436a;
+}
+#message, #failMessage {
+  font-size: 1.4em;
+  margin: 20px auto 0 auto;
+  padding: 10px 20px;
+  width: fit-content;
+  background: #fff7fa;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px #ffb3c6aa;
+}
+#failMessage {
+  color: #e75480;
+}
+#gameCanvas {
+  display: block;
+  margin: 30px auto 0 auto;
+  background: linear-gradient(to top, #ffe0e8 0%, #ffffff 100%);
+  border-radius: 24px;
+  box-shadow: 0 4px 22px #ffb6d5cc;
+  cursor: pointer;
+}
+#endScreen {
+  margin-top: 20px;
+}
+#winMessage {
+  font-size: 2em;
+  color: #e75480;
+  background: #fff7fa;
+  border-radius: 18px;
+  padding: 20px 40px;
+  box-shadow: 0 2px 12px #ffb3c6aa;
+  margin-bottom: 24px;
+}
